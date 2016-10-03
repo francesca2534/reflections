@@ -8,7 +8,13 @@ What do you think are the pros and cons of manually choosing when to create a co
 Manually choosing ehen to create a commit allows brings out the right size of the commit. But the disadvantage is that we might forget to save the changes made.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+In certain cases, two files need to be considered as a unit. For e.g., in writing a html and css files, if we change he name of a class in html the change might need to be made in css as well. Saving multiple files in one commit allows us to know whether we have changed the css accordingly.
 
 How can you use the commands git log and git diff to view the history of files?
+git log allows to go through all the commits that have been made in the file. And git diff allows to check for the differences between two commits.
 
 How might using version control make you more confident to make changes that could break something?
+Version control allows us to checkout to older versions of the file. So introduction of a bug might even be deleted.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Git is really useful in tracking the changes made.
